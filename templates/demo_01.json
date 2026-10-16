@@ -1,26 +1,96 @@
 {
-  "name": "قالب آنلاین آزمایشی",
+  "name": "قالب نئونی تیره",
   "width": 1080,
   "height": 1920,
-  "background": { "type": "gradient", "colors": [4285143962, 4280191205], "angle": 90 },
+  "background": {
+    "type": "gradient",
+    "colors": [4278190335, 4280295456],
+    "angle": 135
+  },
   "elements": [
     {
-      "id": "circle1", "x": 600, "y": 700, "width": 600, "height": 600,
-      "rotation": 0, "alpha": 0.15,
-      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 4294967295,
-                   "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 }
+      "id": "circle1",
+      "x": -180,
+      "y": 450,
+      "width": 700,
+      "height": 700,
+      "rotation": 0,
+      "alpha": 0.12,
+      "content": {
+        "type": "shape",
+        "shapeType": "CIRCLE",
+        "fillColor": 4278255615,
+        "cornerRadiusPx": 0,
+        "strokeColor": 4278255615,
+        "strokeWidthPx": 8
+      }
     },
     {
-      "id": "title", "x": 90, "y": 200, "width": 900, "height": 260,
-      "rotation": 0, "alpha": 1,
-      "content": { "type": "text", "text": "عنوان آنلاین", "fontSizePx": 100,
-                   "color": 4294967295, "bold": true, "align": "CENTER" }
+      "id": "title",
+      "x": 70,
+      "y": 180,
+      "width": 940,
+      "height": 280,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "text",
+        "text": "فراتر از\nیک تجربه معمولی",
+        "fontSizePx": 92,
+        "color": 4294953984,
+        "bold": true,
+        "align": "CENTER"
+      }
     },
     {
-      "id": "phone", "x": 260, "y": 640, "width": 560, "height": 1160,
-      "rotation": 0, "alpha": 1,
-      "content": { "type": "phoneFrame", "frameColor": 4279308561, "showFrame": true,
-                   "bezelRatio": 0.035, "screenCornerRatio": 0.1 }
+      "id": "subtitle",
+      "x": 100,
+      "y": 460,
+      "width": 880,
+      "height": 140,
+      "rotation": 0,
+      "alpha": 0.9,
+      "content": {
+        "type": "text",
+        "text": "قدرت را در دستان خودت بگیر",
+        "fontSizePx": 42,
+        "color": 4294967295,
+        "bold": false,
+        "align": "CENTER"
+      }
+    },
+    {
+      "id": "phone",
+      "x": 260,
+      "y": 650,
+      "width": 560,
+      "height": 1120,
+      "rotation": -6,
+      "alpha": 1,
+      "content": {
+        "type": "phoneFrame",
+        "frameColor": 4279242768,
+        "showFrame": true,
+        "bezelRatio": 0.035,
+        "screenCornerRatio": 0.1
+      }
+    },
+    {
+      "id": "bottomLabel",
+      "x": 120,
+      "y": 1780,
+      "width": 840,
+      "height": 80,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "text",
+        "text": "نسل جدیدی از امکانات",
+        "fontSizePx": 38,
+        "color": 4278255615,
+        "bold": true,
+        "align": "CENTER"
+      }
     }
   ]
 }
