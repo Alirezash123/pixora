@@ -1,0 +1,38 @@
+{
+  "name": "پوستر فروش ویژه",
+  "width": 1080,
+  "height": 1350,
+  "background": { "type": "gradient", "colors": [4279896891, 4292352864], "angle": 90 },
+  "elements": [
+    { "id": "circle_top", "x": 640, "y": -260, "width": 700, "height": 700, "rotation": 0, "alpha": 0.08,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 4294967295, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "circle_bottom", "x": -250, "y": 1000, "width": 700, "height": 700, "rotation": 0, "alpha": 0.15,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 4294956544, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "ring", "x": -120, "y": 60, "width": 360, "height": 360, "rotation": 0, "alpha": 0.6,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": 4294956544, "strokeWidthPx": 8 } },
+    { "id": "ring2", "x": 800, "y": 820, "width": 240, "height": 240, "rotation": 0, "alpha": 0.5,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": 4294934699, "strokeWidthPx": 6 } },
+
+    { "id": "tag_bg", "x": 340, "y": 110, "width": 400, "height": 90, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": 4294956544, "cornerRadiusPx": 45, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "tag_text", "x": 340, "y": 110, "width": 400, "height": 90, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "فروش ویژه پاییزی", "fontSizePx": 44, "color": 4279896891, "bold": true, "align": "CENTER" } },
+
+    { "id": "title", "x": 90, "y": 230, "width": 900, "height": 150, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "جشنواره بزرگ", "fontSizePx": 100, "color": 4294967295, "bold": true, "align": "CENTER" } },
+    { "id": "percent", "x": 90, "y": 390, "width": 900, "height": 400, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "۵۰٪", "fontSizePx": 300, "color": 4294956544, "bold": true, "align": "CENTER" } },
+    { "id": "discount", "x": 90, "y": 790, "width": 900, "height": 120, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "تخفیف ویژه", "fontSizePx": 96, "color": 4294967295, "bold": true, "align": "CENTER" } },
+    { "id": "subtitle", "x": 140, "y": 930, "width": 800, "height": 130, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "برای تمام محصولات فروشگاه\nتا پایان همین هفته", "fontSizePx": 44, "color": 4294174197, "bold": false, "align": "CENTER" } },
+
+    { "id": "button_bg", "x": 290, "y": 1110, "width": 500, "height": 120, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": 4294956544, "cornerRadiusPx": 60, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "button_text", "x": 290, "y": 1110, "width": 500, "height": 120, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "همین حالا خرید کن", "fontSizePx": 48, "color": 4279896891, "bold": true, "align": "CENTER" } },
+
+    { "id": "footer", "x": 90, "y": 1260, "width": 900, "height": 70, "rotation": 0, "alpha": 0.9,
+      "content": { "type": "text", "text": "کد تخفیف: OFF50  |  www.yourshop.ir", "fontSizePx": 36, "color": 4294934699, "bold": false, "align": "CENTER" } }
+  ]
+}
