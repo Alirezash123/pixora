@@ -1,0 +1,26 @@
+{
+  "name": "قالب آنلاین آزمایشی",
+  "width": 1080,
+  "height": 1920,
+  "background": { "type": "gradient", "colors": [4285143962, 4280191205], "angle": 90 },
+  "elements": [
+    {
+      "id": "circle1", "x": 600, "y": 700, "width": 600, "height": 600,
+      "rotation": 0, "alpha": 0.15,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 4294967295,
+                   "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 }
+    },
+    {
+      "id": "title", "x": 90, "y": 200, "width": 900, "height": 260,
+      "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "عنوان آنلاین", "fontSizePx": 100,
+                   "color": 4294967295, "bold": true, "align": "CENTER" }
+    },
+    {
+      "id": "phone", "x": 260, "y": 640, "width": 560, "height": 1160,
+      "rotation": 0, "alpha": 1,
+      "content": { "type": "phoneFrame", "frameColor": 4279308561, "showFrame": true,
+                   "bezelRatio": 0.035, "screenCornerRatio": 0.1 }
+    }
+  ]
+}
