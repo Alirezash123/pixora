@@ -1,213 +1,86 @@
 {
-  "name": "رزومه حرفه‌ای برنامه‌نویس",
-  "width": 1240,
-  "height": 1754,
-  "background": {
-    "type": "solid",
-    "color": 4294967295
-  },
+  "name": "رزومه شخصی مدرن",
+  "width": 2100,
+  "height": 2970,
+  "background": { "type": "solid", "color": 4294967295 },
   "elements": [
-    {
-      "id": "sidebar",
-      "x": 0,
-      "y": 0,
-      "width": 400,
-      "height": 1754,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "shape",
-        "shapeType": "RECTANGLE",
-        "fillColor": 4280690214,
-        "cornerRadiusPx": 0,
-        "strokeColor": 0,
-        "strokeWidthPx": 0
-      }
-    },
-    {
-      "id": "profile",
-      "x": 90,
-      "y": 80,
-      "width": 220,
-      "height": 220,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "image",
-        "imagePath": "profile_placeholder",
-        "scaleType": "CENTER_CROP",
-        "cornerRadiusPx": 110
-      }
-    },
-    {
-      "id": "name",
-      "x": 440,
-      "y": 100,
-      "width": 740,
-      "height": 100,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "text",
-        "text": "نام و نام خانوادگی",
-        "fontSizePx": 60,
-        "color": 4280690214,
-        "bold": true,
-        "align": "RIGHT"
-      }
-    },
-    {
-      "id": "job",
-      "x": 440,
-      "y": 210,
-      "width": 740,
-      "height": 70,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "text",
-        "text": "برنامه‌نویس نرم‌افزار",
-        "fontSizePx": 34,
-        "color": 4280690214,
-        "bold": false,
-        "align": "RIGHT"
-      }
-    },
-    {
-      "id": "contactTitle",
-      "x": 40,
-      "y": 380,
-      "width": 320,
-      "height": 70,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "text",
-        "text": "اطلاعات تماس",
-        "fontSizePx": 36,
-        "color": 4294967295,
-        "bold": true,
-        "align": "RIGHT"
-      }
-    },
-    {
-      "id": "contact",
-      "x": 40,
-      "y": 470,
-      "width": 320,
-      "height": 180,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "text",
-        "text": "example@email.com\n09120000000\nمشهد، ایران",
-        "fontSizePx": 25,
-        "color": 4294967295,
-        "bold": false,
-        "align": "RIGHT"
-      }
-    },
-    {
-      "id": "skillsTitle",
-      "x": 40,
-      "y": 700,
-      "width": 320,
-      "height": 70,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "text",
-        "text": "مهارت‌ها",
-        "fontSizePx": 36,
-        "color": 4294967295,
-        "bold": true,
-        "align": "RIGHT"
-      }
-    },
-    {
-      "id": "skills",
-      "x": 40,
-      "y": 790,
-      "width": 320,
-      "height": 300,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "text",
-        "text": "Kotlin\nFlutter\nJavaScript\nSQL\nGit",
-        "fontSizePx": 27,
-        "color": 4294967295,
-        "bold": false,
-        "align": "RIGHT"
-      }
-    },
-    {
-      "id": "experienceTitle",
-      "x": 440,
-      "y": 380,
-      "width": 740,
-      "height": 80,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "text",
-        "text": "سوابق کاری",
-        "fontSizePx": 40,
-        "color": 4280690214,
-        "bold": true,
-        "align": "RIGHT"
-      }
-    },
-    {
-      "id": "experience",
-      "x": 440,
-      "y": 480,
-      "width": 740,
-      "height": 250,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "text",
-        "text": "توسعه‌دهنده نرم‌افزار\nشرکت نمونه | ۱۴۰۳ تا ۱۴۰۵\n\nطراحی و توسعه اپلیکیشن‌های اندرویدی با Kotlin و Flutter.",
-        "fontSizePx": 27,
-        "color": 4278190080,
-        "bold": false,
-        "align": "RIGHT"
-      }
-    },
-    {
-      "id": "educationTitle",
-      "x": 440,
-      "y": 800,
-      "width": 740,
-      "height": 80,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "text",
-        "text": "تحصیلات",
-        "fontSizePx": 40,
-        "color": 4280690214,
-        "bold": true,
-        "align": "RIGHT"
-      }
-    },
-    {
-      "id": "education",
-      "x": 440,
-      "y": 900,
-      "width": 740,
-      "height": 180,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "text",
-        "text": "مهندسی کامپیوتر\nدانشگاه نمونه | ۱۴۰۱ تا ۱۴۰۵",
-        "fontSizePx": 29,
-        "color": 4278190080,
-        "bold": false,
-        "align": "RIGHT"
-      }
-    }
+    { "id": "sidebar", "x": 1450, "y": 0, "width": 650, "height": 2970, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": 4280166980, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+    { "id": "photo", "x": 1575, "y": 140, "width": 400, "height": 400, "rotation": 0, "alpha": 1,
+      "content": { "type": "image", "cornerRadiusPx": 200 } },
+
+    { "id": "name", "x": 80, "y": 110, "width": 1320, "height": 160, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "نام و نام خانوادگی", "fontSizePx": 120, "color": 4280693304, "bold": true, "align": "START" } },
+    { "id": "job", "x": 80, "y": 285, "width": 1320, "height": 90, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "توسعه‌دهنده اندروید", "fontSizePx": 56, "color": 4280723098, "bold": false, "align": "START" } },
+    { "id": "accent_line", "x": 1200, "y": 400, "width": 200, "height": 10, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": 4280723098, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+    { "id": "contact_title", "x": 1500, "y": 620, "width": 550, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "اطلاعات تماس", "fontSizePx": 52, "color": 4294967295, "bold": true, "align": "START" } },
+    { "id": "contact_line", "x": 1930, "y": 705, "width": 120, "height": 6, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": 4280723098, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "contact_text", "x": 1500, "y": 730, "width": 550, "height": 180, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "تلفن: ۰۹۱۲۳۴۵۶۷۸۹\nایمیل: name@example.com\nتهران، ایران", "fontSizePx": 40, "color": 4289773253, "bold": false, "align": "START" } },
+
+    { "id": "skills_title", "x": 1500, "y": 960, "width": 550, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "مهارت‌ها", "fontSizePx": 52, "color": 4294967295, "bold": true, "align": "START" } },
+    { "id": "skills_line", "x": 1930, "y": 1045, "width": 120, "height": 6, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": 4280723098, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "skills_text", "x": 1500, "y": 1070, "width": 550, "height": 300, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "برنامه‌نویسی اندروید\nطراحی رابط کاربری\nپایگاه داده SQLite\nکار تیمی و مدیریت زمان\nحل مسئله", "fontSizePx": 42, "color": 4289773253, "bold": false, "align": "START" } },
+
+    { "id": "lang_title", "x": 1500, "y": 1440, "width": 550, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "زبان‌ها", "fontSizePx": 52, "color": 4294967295, "bold": true, "align": "START" } },
+    { "id": "lang_line", "x": 1930, "y": 1525, "width": 120, "height": 6, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": 4280723098, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "lang_text", "x": 1500, "y": 1550, "width": 550, "height": 130, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "فارسی (زبان مادری)\nانگلیسی (متوسط)", "fontSizePx": 42, "color": 4289773253, "bold": false, "align": "START" } },
+
+    { "id": "summary_title", "x": 80, "y": 480, "width": 1320, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "درباره من", "fontSizePx": 60, "color": 4280723098, "bold": true, "align": "START" } },
+    { "id": "summary_line", "x": 80, "y": 570, "width": 1320, "height": 4, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": 4291811548, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "summary_text", "x": 80, "y": 600, "width": 1320, "height": 260, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "توسعه‌دهنده اندروید با بیش از سه سال تجربه در ساخت اپلیکیشن‌های کاربردی با Kotlin و Jetpack Compose. علاقه‌مند به طراحی رابط کاربری روان و نوشتن کد تمیز و قابل نگهداری.", "fontSizePx": 44, "color": 4284513675, "bold": false, "align": "START" } },
+
+    { "id": "exp_title", "x": 80, "y": 920, "width": 1320, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "سوابق شغلی", "fontSizePx": 60, "color": 4280723098, "bold": true, "align": "START" } },
+    { "id": "exp_line", "x": 80, "y": 1010, "width": 1320, "height": 4, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": 4291811548, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+    { "id": "exp1_title", "x": 80, "y": 1050, "width": 1320, "height": 70, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "توسعه‌دهنده ارشد اندروید | شرکت نمونه", "fontSizePx": 48, "color": 4280693304, "bold": true, "align": "START" } },
+    { "id": "exp1_date", "x": 80, "y": 1125, "width": 1320, "height": 60, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "۱۴۰۱ تا کنون", "fontSizePx": 38, "color": 4280723098, "bold": false, "align": "START" } },
+    { "id": "exp1_desc", "x": 80, "y": 1195, "width": 1320, "height": 150, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "طراحی و توسعه اپلیکیشن‌های موبایل با معماری MVVM و رهبری یک تیم چهار نفره.", "fontSizePx": 42, "color": 4284513675, "bold": false, "align": "START" } },
+
+    { "id": "exp2_title", "x": 80, "y": 1380, "width": 1320, "height": 70, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "برنامه‌نویس اندروید | استودیو نمونه", "fontSizePx": 48, "color": 4280693304, "bold": true, "align": "START" } },
+    { "id": "exp2_date", "x": 80, "y": 1455, "width": 1320, "height": 60, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "۱۴۰۰ تا ۱۴۰۱", "fontSizePx": 38, "color": 4280723098, "bold": false, "align": "START" } },
+    { "id": "exp2_desc", "x": 80, "y": 1525, "width": 1320, "height": 150, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "پیاده‌سازی صفحه‌های جدید، اتصال به API و رفع باگ‌های نسخه‌های منتشرشده.", "fontSizePx": 42, "color": 4284513675, "bold": false, "align": "START" } },
+
+    { "id": "edu_title", "x": 80, "y": 1760, "width": 1320, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "تحصیلات", "fontSizePx": 60, "color": 4280723098, "bold": true, "align": "START" } },
+    { "id": "edu_line", "x": 80, "y": 1850, "width": 1320, "height": 4, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": 4291811548, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "edu_name", "x": 80, "y": 1890, "width": 1320, "height": 70, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "کارشناسی مهندسی کامپیوتر | دانشگاه تهران", "fontSizePx": 48, "color": 4280693304, "bold": true, "align": "START" } },
+    { "id": "edu_date", "x": 80, "y": 1965, "width": 1320, "height": 60, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "۱۳۹۶ تا ۱۴۰۰", "fontSizePx": 38, "color": 4280723098, "bold": false, "align": "START" } },
+
+    { "id": "proj_title", "x": 80, "y": 2120, "width": 1320, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "پروژه‌ها", "fontSizePx": 60, "color": 4280723098, "bold": true, "align": "START" } },
+    { "id": "proj_line", "x": 80, "y": 2210, "width": 1320, "height": 4, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": 4291811548, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "proj_text", "x": 80, "y": 2250, "width": 1320, "height": 200, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "• اپلیکیشن آموزش زبان با بیش از ۵۰ هزار نصب\n• ابزار طراحی تصاویر معرفی اپلیکیشن\n• کتابخانه متن‌باز برای کار با Room", "fontSizePx": 44, "color": 4284513675, "bold": false, "align": "START" } },
+
+    { "id": "bottom_bar", "x": 0, "y": 2930, "width": 1450, "height": 40, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": 4280723098, "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } }
   ]
 }
