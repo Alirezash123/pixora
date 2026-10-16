@@ -1,75 +1,56 @@
 {
-  "name": "قالب تبلیغاتی کافه",
+  "name": "پوستر کافه با تصویر واقعی",
   "width": 1080,
   "height": 1920,
   "background": {
     "type": "gradient",
-    "colors": [4281348144, 4278207792],
+    "colors": [4279703319, 4281348144],
     "angle": 90
   },
   "elements": [
     {
-      "id": "circle1",
-      "x": 650,
-      "y": 300,
-      "width": 500,
-      "height": 500,
-      "rotation": 0,
-      "alpha": 0.15,
-      "content": {
-        "type": "shape",
-        "shapeType": "CIRCLE",
-        "fillColor": 4294967295,
-        "cornerRadiusPx": 0,
-        "strokeColor": 0,
-        "strokeWidthPx": 0
-      }
-    },
-    {
       "id": "title",
       "x": 80,
-      "y": 180,
+      "y": 150,
       "width": 920,
       "height": 250,
       "rotation": 0,
       "alpha": 1,
       "content": {
         "type": "text",
-        "text": "طعم یک\nلحظه آرامش",
-        "fontSizePx": 100,
+        "text": "طعم واقعی قهوه",
+        "fontSizePx": 90,
         "color": 4294967295,
         "bold": true,
         "align": "CENTER"
       }
     },
     {
-      "id": "subtitle",
+      "id": "coffeeImage",
       "x": 100,
-      "y": 470,
+      "y": 480,
       "width": 880,
-      "height": 130,
+      "height": 800,
       "rotation": 0,
       "alpha": 1,
       "content": {
-        "type": "text",
-        "text": "قهوه تازه، حال خوب",
-        "fontSizePx": 42,
-        "color": 4292927712,
-        "bold": false,
-        "align": "CENTER"
+        "type": "image",
+        "imagePath": "https://cdn-icons-png.flaticon.com/128/1047/1047462.png",
+        "scaleType": "FIT_CENTER",
+        "cornerRadiusPx": 30
       }
     },
     {
-      "id": "price",
-      "x": 180,
-      "y": 1450,
-      "width": 720,
-      "height": 140,
+      "id": "subtitle",
+      "x": 100,
+      "y": 1370,
+      "width": 880,
+      "height": 160,
       "rotation": 0,
       "alpha": 1,
       "content": {
         "type": "text",
-        "text": "هر فنجان، یک خاطره",
+        "text": "هر فنجان، یک حس خوب",
         "fontSizePx": 48,
         "color": 4294967295,
         "bold": true,
