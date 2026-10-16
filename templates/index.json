@@ -2,8 +2,8 @@
   "templates": [
     {
       "id": "demo_01",
-      "title": "قالب آنلاین آزمایشی",
-      "category": "آموزش زبان",
+      "title": "رزومه شخصی 01",
+      "category": "رزومه",
       "templateUrl": "templates/demo_01.json"
     }
   ]
