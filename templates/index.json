@@ -1,0 +1,10 @@
+{
+  "templates": [
+    {
+      "id": "demo_01",
+      "title": "قالب آنلاین آزمایشی",
+      "category": "آموزش زبان",
+      "templateUrl": "templates/demo_01.json"
+    }
+  ]
+}
