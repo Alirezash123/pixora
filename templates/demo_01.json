@@ -1,43 +1,43 @@
 {
-  "name": "قالب نئونی تیره",
+  "name": "قالب تبلیغاتی کافه",
   "width": 1080,
   "height": 1920,
   "background": {
     "type": "gradient",
-    "colors": [4278190335, 4280295456],
-    "angle": 135
+    "colors": [4281348144, 4278207792],
+    "angle": 90
   },
   "elements": [
     {
       "id": "circle1",
-      "x": -180,
-      "y": 450,
-      "width": 700,
-      "height": 700,
+      "x": 650,
+      "y": 300,
+      "width": 500,
+      "height": 500,
       "rotation": 0,
-      "alpha": 0.12,
+      "alpha": 0.15,
       "content": {
         "type": "shape",
         "shapeType": "CIRCLE",
-        "fillColor": 4278255615,
+        "fillColor": 4294967295,
         "cornerRadiusPx": 0,
-        "strokeColor": 4278255615,
-        "strokeWidthPx": 8
+        "strokeColor": 0,
+        "strokeWidthPx": 0
       }
     },
     {
       "id": "title",
-      "x": 70,
+      "x": 80,
       "y": 180,
-      "width": 940,
-      "height": 280,
+      "width": 920,
+      "height": 250,
       "rotation": 0,
       "alpha": 1,
       "content": {
         "type": "text",
-        "text": "فراتر از\nیک تجربه معمولی",
-        "fontSizePx": 92,
-        "color": 4294953984,
+        "text": "طعم یک\nلحظه آرامش",
+        "fontSizePx": 100,
+        "color": 4294967295,
         "bold": true,
         "align": "CENTER"
       }
@@ -45,49 +45,33 @@
     {
       "id": "subtitle",
       "x": 100,
-      "y": 460,
+      "y": 470,
       "width": 880,
-      "height": 140,
+      "height": 130,
       "rotation": 0,
-      "alpha": 0.9,
+      "alpha": 1,
       "content": {
         "type": "text",
-        "text": "قدرت را در دستان خودت بگیر",
+        "text": "قهوه تازه، حال خوب",
         "fontSizePx": 42,
-        "color": 4294967295,
+        "color": 4292927712,
         "bold": false,
         "align": "CENTER"
       }
     },
     {
-      "id": "phone",
-      "x": 260,
-      "y": 650,
-      "width": 560,
-      "height": 1120,
-      "rotation": -6,
-      "alpha": 1,
-      "content": {
-        "type": "phoneFrame",
-        "frameColor": 4279242768,
-        "showFrame": true,
-        "bezelRatio": 0.035,
-        "screenCornerRatio": 0.1
-      }
-    },
-    {
-      "id": "bottomLabel",
-      "x": 120,
-      "y": 1780,
-      "width": 840,
-      "height": 80,
+      "id": "price",
+      "x": 180,
+      "y": 1450,
+      "width": 720,
+      "height": 140,
       "rotation": 0,
       "alpha": 1,
       "content": {
         "type": "text",
-        "text": "نسل جدیدی از امکانات",
-        "fontSizePx": 38,
-        "color": 4278255615,
+        "text": "هر فنجان، یک خاطره",
+        "fontSizePx": 48,
+        "color": 4294967295,
         "bold": true,
         "align": "CENTER"
       }
