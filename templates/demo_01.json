@@ -1,60 +1,212 @@
 {
-  "name": "پوستر کافه با تصویر واقعی",
-  "width": 1080,
-  "height": 1920,
+  "name": "رزومه حرفه‌ای برنامه‌نویس",
+  "width": 1240,
+  "height": 1754,
   "background": {
-    "type": "gradient",
-    "colors": [4279703319, 4281348144],
-    "angle": 90
+    "type": "solid",
+    "color": 4294967295
   },
   "elements": [
     {
-      "id": "title",
-      "x": 80,
-      "y": 150,
-      "width": 920,
+      "id": "sidebar",
+      "x": 0,
+      "y": 0,
+      "width": 400,
+      "height": 1754,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "shape",
+        "shapeType": "RECTANGLE",
+        "fillColor": 4280690214,
+        "cornerRadiusPx": 0,
+        "strokeColor": 0,
+        "strokeWidthPx": 0
+      }
+    },
+    {
+      "id": "profile",
+      "x": 90,
+      "y": 80,
+      "width": 220,
+      "height": 220,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "image",
+        "imagePath": "profile_placeholder",
+        "scaleType": "CENTER_CROP",
+        "cornerRadiusPx": 110
+      }
+    },
+    {
+      "id": "name",
+      "x": 440,
+      "y": 100,
+      "width": 740,
+      "height": 100,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "text",
+        "text": "نام و نام خانوادگی",
+        "fontSizePx": 60,
+        "color": 4280690214,
+        "bold": true,
+        "align": "RIGHT"
+      }
+    },
+    {
+      "id": "job",
+      "x": 440,
+      "y": 210,
+      "width": 740,
+      "height": 70,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "text",
+        "text": "برنامه‌نویس نرم‌افزار",
+        "fontSizePx": 34,
+        "color": 4280690214,
+        "bold": false,
+        "align": "RIGHT"
+      }
+    },
+    {
+      "id": "contactTitle",
+      "x": 40,
+      "y": 380,
+      "width": 320,
+      "height": 70,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "text",
+        "text": "اطلاعات تماس",
+        "fontSizePx": 36,
+        "color": 4294967295,
+        "bold": true,
+        "align": "RIGHT"
+      }
+    },
+    {
+      "id": "contact",
+      "x": 40,
+      "y": 470,
+      "width": 320,
+      "height": 180,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "text",
+        "text": "example@email.com\n09120000000\nمشهد، ایران",
+        "fontSizePx": 25,
+        "color": 4294967295,
+        "bold": false,
+        "align": "RIGHT"
+      }
+    },
+    {
+      "id": "skillsTitle",
+      "x": 40,
+      "y": 700,
+      "width": 320,
+      "height": 70,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "text",
+        "text": "مهارت‌ها",
+        "fontSizePx": 36,
+        "color": 4294967295,
+        "bold": true,
+        "align": "RIGHT"
+      }
+    },
+    {
+      "id": "skills",
+      "x": 40,
+      "y": 790,
+      "width": 320,
+      "height": 300,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "text",
+        "text": "Kotlin\nFlutter\nJavaScript\nSQL\nGit",
+        "fontSizePx": 27,
+        "color": 4294967295,
+        "bold": false,
+        "align": "RIGHT"
+      }
+    },
+    {
+      "id": "experienceTitle",
+      "x": 440,
+      "y": 380,
+      "width": 740,
+      "height": 80,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "text",
+        "text": "سوابق کاری",
+        "fontSizePx": 40,
+        "color": 4280690214,
+        "bold": true,
+        "align": "RIGHT"
+      }
+    },
+    {
+      "id": "experience",
+      "x": 440,
+      "y": 480,
+      "width": 740,
       "height": 250,
       "rotation": 0,
       "alpha": 1,
       "content": {
         "type": "text",
-        "text": "طعم واقعی قهوه",
-        "fontSizePx": 90,
-        "color": 4294967295,
-        "bold": true,
-        "align": "CENTER"
+        "text": "توسعه‌دهنده نرم‌افزار\nشرکت نمونه | ۱۴۰۳ تا ۱۴۰۵\n\nطراحی و توسعه اپلیکیشن‌های اندرویدی با Kotlin و Flutter.",
+        "fontSizePx": 27,
+        "color": 4278190080,
+        "bold": false,
+        "align": "RIGHT"
       }
     },
     {
-      "id": "coffeeImage",
-      "x": 100,
-      "y": 480,
-      "width": 880,
-      "height": 800,
-      "rotation": 0,
-      "alpha": 1,
-      "content": {
-        "type": "image",
-        "imagePath": "https://cdn-icons-png.flaticon.com/128/1047/1047462.png",
-        "scaleType": "FIT_CENTER",
-        "cornerRadiusPx": 30
-      }
-    },
-    {
-      "id": "subtitle",
-      "x": 100,
-      "y": 1370,
-      "width": 880,
-      "height": 160,
+      "id": "educationTitle",
+      "x": 440,
+      "y": 800,
+      "width": 740,
+      "height": 80,
       "rotation": 0,
       "alpha": 1,
       "content": {
         "type": "text",
-        "text": "هر فنجان، یک حس خوب",
-        "fontSizePx": 48,
-        "color": 4294967295,
+        "text": "تحصیلات",
+        "fontSizePx": 40,
+        "color": 4280690214,
         "bold": true,
-        "align": "CENTER"
+        "align": "RIGHT"
+      }
+    },
+    {
+      "id": "education",
+      "x": 440,
+      "y": 900,
+      "width": 740,
+      "height": 180,
+      "rotation": 0,
+      "alpha": 1,
+      "content": {
+        "type": "text",
+        "text": "مهندسی کامپیوتر\nدانشگاه نمونه | ۱۴۰۱ تا ۱۴۰۵",
+        "fontSizePx": 29,
+        "color": 4278190080,
+        "bold": false,
+        "align": "RIGHT"
       }
     }
   ]
