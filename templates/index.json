@@ -11,6 +11,12 @@
   "title": "پوستر فروش ویژه",
   "category": "تبلیغات",
   "templateUrl": "templates/sale_poster_01.json"
+},
+    {
+  "id": "demo_02",
+  "title": "demo",
+  "category": "تبلیغات",
+  "templateUrl": "templates/demo_02.json"
 }
   ]
 }
