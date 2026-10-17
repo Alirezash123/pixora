@@ -1,0 +1,14 @@
+{
+  "name": "معرفی اپلیکیشن",
+  "width": 1080,
+  "height": 1920,
+  "background": { "type": "gradient", "colors": ["#6A1B9A", "#1E88E5"], "angle": 90 },
+  "elements": [
+    { "id": "logo", "x": 440, "y": 90, "width": 200, "height": 200, "rotation": 0, "alpha": 1,
+      "content": { "type": "image", "imageUrl": "images/logo.png", "cornerRadiusPx": 45 } },
+    { "id": "title", "x": 90, "y": 320, "width": 900, "height": 200, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "نام اپلیکیشن شما", "fontSizePx": 96, "color": "#FFFFFF", "bold": true, "align": "CENTER" } },
+    { "id": "phone", "x": 260, "y": 600, "width": 560, "height": 1160, "rotation": 0, "alpha": 1,
+      "content": { "type": "phoneFrame", "screenshotUrl": "images/screen1.png", "frameColor": "#111111", "showFrame": true, "bezelRatio": 0.035, "screenCornerRatio": 0.1 } }
+  ]
+}
