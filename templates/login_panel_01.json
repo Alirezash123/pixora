@@ -1,0 +1,25 @@
+{
+  "name": "Login Panel",
+  "width": 1080,
+  "height": 1920,
+  "background": { "type": "gradient", "colors": ["#A9E7F3", "#C2B8F2", "#B9E6F2"], "angle": 75 },
+  "elements": [
+    { "id": "sphere_top", "x": 800, "y": -130, "width": 380, "height": 380, "rotation": 0, "alpha": 0.85,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#9FE3F0", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "sphere_left", "x": -40, "y": 330, "width": 320, "height": 320, "rotation": 0, "alpha": 0.9,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#A5D2F5", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "sphere_right", "x": 860, "y": 610, "width": 190, "height": 190, "rotation": 0, "alpha": 0.9,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#8FDFF2", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "sphere_bottom", "x": -140, "y": 1480, "width": 540, "height": 540, "rotation": 0, "alpha": 0.7,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#E6C6F6", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+    { "id": "title", "x": 90, "y": 110, "width": 900, "height": 160, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "LogIn Panel", "fontSizePx": 100, "color": "#0B4F6C", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "phone_shadow", "x": 205, "y": 372, "width": 670, "height": 1420, "rotation": 0, "alpha": 0.1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#000000", "cornerRadiusPx": 95, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+    { "id": "phone", "x": 215, "y": 340, "width": 650, "height": 1408, "rotation": 0, "alpha": 1,
+      "content": { "type": "phoneFrame", "frameColor": "#F2F3F7", "showFrame": true, "bezelRatio": 0.03, "screenCornerRatio": 0.09 } }
+  ]
+}
