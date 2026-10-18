@@ -6,17 +6,23 @@
       "category": "رزومه",
       "templateUrl": "templates/demo_01.json"
     },
-{
-  "id": "sale_poster_01",
-  "title": "پوستر فروش ویژه",
-  "category": "تبلیغات",
-  "templateUrl": "templates/sale_poster_01.json"
-},
     {
-  "id": "demo_02",
-  "title": "demo",
-  "category": "تبلیغات",
-  "templateUrl": "templates/demo_02.json"
-}
+      "id": "sale_poster_01",
+      "title": "پوستر فروش ویژه",
+      "category": "تبلیغات",
+      "templateUrl": "templates/sale_poster_01.json"
+    },
+    {
+      "id": "demo_02",
+      "title": "demo",
+      "category": "تبلیغات",
+      "templateUrl": "templates/demo_02.json"
+    },
+    {
+      "id": "login_panel_01",
+      "title": "Login Panel",
+      "category": "معرفی اپلیکیشن",
+      "templateUrl": "templates/login_panel_01.json"
+    }
   ]
 }
