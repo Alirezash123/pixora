@@ -23,6 +23,12 @@
       "title": "Login Panel",
       "category": "معرفی اپلیکیشن",
       "templateUrl": "templates/login_panel_01.json"
+    },
+    {
+      "id": "resume_02",
+      "title": "رزومه نوار کناری",
+      "category": "رزومه",
+      "templateUrl": "templates/resume_02.json"
     }
   ]
 }
