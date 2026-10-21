@@ -29,6 +29,12 @@
       "title": "رزومه نوار کناری",
       "category": "رزومه",
       "templateUrl": "templates/resume_02.json"
+    },
+    {
+      "id": "exam_app_01",
+      "title": "معرفی اپ برگه امتحان (۵ صفحه)",
+      "category": "معرفی اپلیکیشن",
+      "templateUrl": "templates/exam_app_01.json"
     }
   ]
 }
