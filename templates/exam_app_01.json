@@ -1,0 +1,195 @@
+{
+  "name": "معرفی اپ برگه امتحان",
+  "pages": [
+    {
+      "width": 1080, "height": 1920,
+      "background": { "type": "solid", "color": "#FAF6EF" },
+      "elements": [
+        { "id": "p1_c1", "x": -240, "y": -200, "width": 680, "height": 680, "rotation": 0, "alpha": 1, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#F0E2D0", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p1_c2", "x": 740, "y": 330, "width": 480, "height": 480, "rotation": 0, "alpha": 0.55, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#E8D3B9", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p1_ring", "x": 800, "y": 1290, "width": 320, "height": 320, "rotation": 0, "alpha": 0.3, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#8B4A1F", "strokeWidthPx": 6 } },
+
+        { "id": "p1_chip_bg", "x": 300, "y": 130, "width": 480, "height": 88, "rotation": 0, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#8B4A1F", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p1_chip_text", "x": 300, "y": 130, "width": 480, "height": 88, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "اپلیکیشن ساخت برگه امتحان", "fontSizePx": 34, "color": "#FAF6EF", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+        { "id": "p1_title", "x": 90, "y": 260, "width": 900, "height": 380, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "برگه امتحان\nحرفه‌ای بساز", "fontSizePx": 116, "color": "#3B2616", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+        { "id": "p1_sub", "x": 140, "y": 650, "width": 800, "height": 170, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "سربرگ، سؤال و پیش‌نمایش PDF\nهمه در یک اپلیکیشن", "fontSizePx": 42, "color": "#7A5A44", "bold": false, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+        { "id": "p1_shadow", "x": 272, "y": 830, "width": 560, "height": 1160, "rotation": -6, "alpha": 0.14,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#3B2616", "cornerRadiusPx": 95, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p1_phone", "x": 260, "y": 800, "width": 560, "height": 1160, "rotation": -6, "alpha": 1,
+          "content": { "type": "phoneFrame", "model": "PUNCH_HOLE", "screenshotUrl": "images/exam_header.png", "frameColor": "#3B2A1E", "showFrame": true, "bezelRatio": 0.03, "screenCornerRatio": 0.1 } },
+
+        { "id": "p1_card_a", "x": 50, "y": 1060, "width": 350, "height": 112, "rotation": -5, "alpha": 0.96,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#FFFFFF", "cornerRadiusPx": 40, "strokeColor": "#E0D5C8", "strokeWidthPx": 3 } },
+        { "id": "p1_card_a_text", "x": 50, "y": 1060, "width": 350, "height": 112, "rotation": -5, "alpha": 1,
+          "content": { "type": "text", "text": "سربرگ دانشگاه", "fontSizePx": 38, "color": "#8B4A1F", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+        { "id": "p1_card_b", "x": 690, "y": 1500, "width": 350, "height": 112, "rotation": 5, "alpha": 0.96,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#FFFFFF", "cornerRadiusPx": 40, "strokeColor": "#E0D5C8", "strokeWidthPx": 3 } },
+        { "id": "p1_card_b_text", "x": 690, "y": 1500, "width": 350, "height": 112, "rotation": 5, "alpha": 1,
+          "content": { "type": "text", "text": "پیش‌نمایش PDF", "fontSizePx": 38, "color": "#8B4A1F", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } }
+      ]
+    },
+
+    {
+      "width": 1080, "height": 1920,
+      "background": { "type": "gradient", "colors": ["#3A2314", "#5B3A22"], "angle": 90 },
+      "elements": [
+        { "id": "p2_ring", "x": -220, "y": -180, "width": 720, "height": 720, "rotation": 0, "alpha": 0.28, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#D9A86C", "strokeWidthPx": 4 } },
+        { "id": "p2_glow", "x": 600, "y": 420, "width": 620, "height": 620, "rotation": 0, "alpha": 0.38, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#8B4A1F", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p2_dot", "x": 860, "y": 150, "width": 90, "height": 90, "rotation": 0, "alpha": 0.8, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#D9A86C", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+        { "id": "p2_title", "x": 90, "y": 190, "width": 900, "height": 380, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "سؤال‌هایت را\nسریع اضافه کن", "fontSizePx": 104, "color": "#FAF6EF", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+        { "id": "p2_sub", "x": 140, "y": 590, "width": 800, "height": 150, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "تستی، تشریحی و جای‌خالی\nبا چند لمس ساده", "fontSizePx": 42, "color": "#D9C2A5", "bold": false, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+        { "id": "p2_phone", "x": 250, "y": 900, "width": 580, "height": 1200, "rotation": 0, "alpha": 1,
+          "content": { "type": "phoneFrame", "model": "NOTCH", "screenshotUrl": "images/exam_questions.png", "frameColor": "#E8D9C5", "showFrame": true, "bezelRatio": 0.03, "screenCornerRatio": 0.1 } },
+
+        { "id": "p2_chip1_bg", "x": 50, "y": 860, "width": 380, "height": 96, "rotation": -4, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#FAF6EF", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p2_chip1_text", "x": 50, "y": 860, "width": 380, "height": 96, "rotation": -4, "alpha": 1,
+          "content": { "type": "text", "text": "سؤال تستی", "fontSizePx": 40, "color": "#8B4A1F", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+        { "id": "p2_chip2_bg", "x": 660, "y": 1180, "width": 370, "height": 96, "rotation": 4, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#D9A86C", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p2_chip2_text", "x": 660, "y": 1180, "width": 370, "height": 96, "rotation": 4, "alpha": 1,
+          "content": { "type": "text", "text": "سؤال تشریحی", "fontSizePx": 40, "color": "#3A2314", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+        { "id": "p2_chip3_bg", "x": 40, "y": 1520, "width": 320, "height": 96, "rotation": -3, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#8B4A1F", "cornerRadiusPx": 999, "strokeColor": "#D9A86C", "strokeWidthPx": 3 } },
+        { "id": "p2_chip3_text", "x": 40, "y": 1520, "width": 320, "height": 96, "rotation": -3, "alpha": 1,
+          "content": { "type": "text", "text": "جای‌خالی", "fontSizePx": 40, "color": "#FAF6EF", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } }
+      ]
+    },
+
+    {
+      "width": 1080, "height": 1920,
+      "background": { "type": "gradient", "colors": ["#FAF6EF", "#EAD9C3"], "angle": 80 },
+      "elements": [
+        { "id": "p3_circle", "x": 420, "y": 620, "width": 900, "height": 900, "rotation": 0, "alpha": 0.5, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#E3CDB0", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p3_ring", "x": -160, "y": 1250, "width": 420, "height": 420, "rotation": 0, "alpha": 0.25, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#8B4A1F", "strokeWidthPx": 5 } },
+
+        { "id": "p3_title", "x": 90, "y": 130, "width": 900, "height": 380, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "قالب آماده\nپیش‌نمایش دقیق", "fontSizePx": 96, "color": "#3B2616", "bold": true, "align": "START", "fontKey": "vazirmatn" } },
+        { "id": "p3_bar", "x": 890, "y": 530, "width": 100, "height": 12, "rotation": 0, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#8B4A1F", "cornerRadiusPx": 6, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p3_sub", "x": 90, "y": 570, "width": 900, "height": 150, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "برگه امتحان را قبل از چاپ\nدقیقاً همان‌طور که هست ببین", "fontSizePx": 40, "color": "#7A5A44", "bold": false, "align": "START", "fontKey": "vazirmatn" } },
+
+        { "id": "p3_phone_back", "x": 540, "y": 800, "width": 480, "height": 1000, "rotation": 8, "alpha": 1,
+          "content": { "type": "phoneFrame", "model": "CLASSIC", "screenshotUrl": "images/exam_template.png", "frameColor": "#8B4A1F", "showFrame": true, "bezelRatio": 0.035, "screenCornerRatio": 0.1 } },
+        { "id": "p3_shadow_front", "x": 132, "y": 880, "width": 540, "height": 1120, "rotation": -5, "alpha": 0.15,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#3B2616", "cornerRadiusPx": 90, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p3_phone_front", "x": 120, "y": 840, "width": 540, "height": 1120, "rotation": -5, "alpha": 1,
+          "content": { "type": "phoneFrame", "model": "PUNCH_HOLE", "screenshotUrl": "images/exam_preview.png", "frameColor": "#2B1F17", "showFrame": true, "bezelRatio": 0.03, "screenCornerRatio": 0.1 } },
+
+        { "id": "p3_chip_bg", "x": 640, "y": 1660, "width": 370, "height": 100, "rotation": 4, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#8B4A1F", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p3_chip_text", "x": 640, "y": 1660, "width": 370, "height": 100, "rotation": 4, "alpha": 1,
+          "content": { "type": "text", "text": "راست‌چین کامل", "fontSizePx": 38, "color": "#FAF6EF", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } }
+      ]
+    },
+
+    {
+      "width": 1080, "height": 1920,
+      "background": { "type": "solid", "color": "#F1E7DA" },
+      "elements": [
+        { "id": "p4_circle", "x": -340, "y": 1180, "width": 760, "height": 760, "rotation": 0, "alpha": 0.7, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#E8D3B9", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p4_circle2", "x": 800, "y": -160, "width": 420, "height": 420, "rotation": 0, "alpha": 0.6, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#E8D3B9", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+        { "id": "p4_phone", "x": -200, "y": 420, "width": 620, "height": 1280, "rotation": -6, "alpha": 1,
+          "content": { "type": "phoneFrame", "model": "PUNCH_HOLE", "screenshotUrl": "images/exam_header.png", "frameColor": "#3B2A1E", "showFrame": true, "bezelRatio": 0.03, "screenCornerRatio": 0.1 } },
+
+        { "id": "p4_header", "x": 450, "y": 130, "width": 540, "height": 260, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "هر چیزی که\nبرگه‌ات لازم دارد", "fontSizePx": 58, "color": "#3B2616", "bold": true, "align": "START", "fontKey": "vazirmatn" } },
+
+        { "id": "p4_timeline", "x": 932, "y": 535, "width": 6, "height": 780, "rotation": 0, "alpha": 1, "locked": true,
+          "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": "#D9C2A5", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+        { "id": "p4_r1_dot", "x": 880, "y": 480, "width": 110, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#8B4A1F", "cornerRadiusPx": 0, "strokeColor": "#F1E7DA", "strokeWidthPx": 6 } },
+        { "id": "p4_r1_num", "x": 880, "y": 480, "width": 110, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "۱", "fontSizePx": 54, "color": "#FAF6EF", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+        { "id": "p4_r1_title", "x": 440, "y": 476, "width": 420, "height": 70, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "سربرگ هوشمند", "fontSizePx": 38, "color": "#3B2616", "bold": true, "align": "START", "fontKey": "vazirmatn" } },
+        { "id": "p4_r1_desc", "x": 440, "y": 538, "width": 420, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "لوگو، نام دانشگاه و عنوان امتحان را یک‌بار وارد کنید", "fontSizePx": 28, "color": "#7A5A44", "bold": false, "align": "START", "fontKey": "vazirmatn" } },
+        { "id": "p4_r1_line", "x": 440, "y": 685, "width": 550, "height": 3, "rotation": 0, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": "#E0D0BC", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+        { "id": "p4_r2_dot", "x": 880, "y": 740, "width": 110, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#8B4A1F", "cornerRadiusPx": 0, "strokeColor": "#F1E7DA", "strokeWidthPx": 6 } },
+        { "id": "p4_r2_num", "x": 880, "y": 740, "width": 110, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "۲", "fontSizePx": 54, "color": "#FAF6EF", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+        { "id": "p4_r2_title", "x": 440, "y": 736, "width": 420, "height": 70, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "بانک سؤالات", "fontSizePx": 38, "color": "#3B2616", "bold": true, "align": "START", "fontKey": "vazirmatn" } },
+        { "id": "p4_r2_desc", "x": 440, "y": 798, "width": 420, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "سؤال تستی، تشریحی و جای‌خالی را سریع اضافه کنید", "fontSizePx": 28, "color": "#7A5A44", "bold": false, "align": "START", "fontKey": "vazirmatn" } },
+        { "id": "p4_r2_line", "x": 440, "y": 945, "width": 550, "height": 3, "rotation": 0, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": "#E0D0BC", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+        { "id": "p4_r3_dot", "x": 880, "y": 1000, "width": 110, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#8B4A1F", "cornerRadiusPx": 0, "strokeColor": "#F1E7DA", "strokeWidthPx": 6 } },
+        { "id": "p4_r3_num", "x": 880, "y": 1000, "width": 110, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "۳", "fontSizePx": 54, "color": "#FAF6EF", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+        { "id": "p4_r3_title", "x": 440, "y": 996, "width": 420, "height": 70, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "قالب‌های آماده", "fontSizePx": 38, "color": "#3B2616", "bold": true, "align": "START", "fontKey": "vazirmatn" } },
+        { "id": "p4_r3_desc", "x": 440, "y": 1058, "width": 420, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "چیدمان‌های استاندارد برگه امتحان با یک لمس", "fontSizePx": 28, "color": "#7A5A44", "bold": false, "align": "START", "fontKey": "vazirmatn" } },
+        { "id": "p4_r3_line", "x": 440, "y": 1205, "width": 550, "height": 3, "rotation": 0, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": "#E0D0BC", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+        { "id": "p4_r4_dot", "x": 880, "y": 1260, "width": 110, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#8B4A1F", "cornerRadiusPx": 0, "strokeColor": "#F1E7DA", "strokeWidthPx": 6 } },
+        { "id": "p4_r4_num", "x": 880, "y": 1260, "width": 110, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "۴", "fontSizePx": 54, "color": "#FAF6EF", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+        { "id": "p4_r4_title", "x": 440, "y": 1256, "width": 420, "height": 70, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "خروجی PDF", "fontSizePx": 38, "color": "#3B2616", "bold": true, "align": "START", "fontKey": "vazirmatn" } },
+        { "id": "p4_r4_desc", "x": 440, "y": 1318, "width": 420, "height": 110, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "پیش‌نمایش دقیق و چاپ بدون دردسر", "fontSizePx": 28, "color": "#7A5A44", "bold": false, "align": "START", "fontKey": "vazirmatn" } }
+      ]
+    },
+
+    {
+      "width": 1080, "height": 1920,
+      "background": { "type": "gradient", "colors": ["#7A3F18", "#C07F45"], "angle": 90 },
+      "elements": [
+        { "id": "p5_c1", "x": 560, "y": -260, "width": 820, "height": 820, "rotation": 0, "alpha": 0.08, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#FFFFFF", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p5_c2", "x": -260, "y": 1240, "width": 720, "height": 720, "rotation": 0, "alpha": 0.07, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#FFFFFF", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p5_ring", "x": 780, "y": 1380, "width": 260, "height": 260, "rotation": 0, "alpha": 0.35, "locked": true,
+          "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#FAF6EF", "strokeWidthPx": 5 } },
+
+        { "id": "p5_title", "x": 90, "y": 150, "width": 900, "height": 380, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "برگه امتحان بعدی‌ات\nرا همین‌جا بساز", "fontSizePx": 84, "color": "#FAF6EF", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+        { "id": "p5_sub", "x": 140, "y": 540, "width": 800, "height": 100, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "سربرگ، سؤال و قالب؛ همه آماده", "fontSizePx": 40, "color": "#F1DCC3", "bold": false, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+        { "id": "p5_shadow", "x": 292, "y": 680, "width": 520, "height": 1080, "rotation": 6, "alpha": 0.25,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#2B1408", "cornerRadiusPx": 90, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p5_phone", "x": 280, "y": 650, "width": 520, "height": 1080, "rotation": 6, "alpha": 1,
+          "content": { "type": "phoneFrame", "model": "NOTCH", "screenshotUrl": "images/exam_preview.png", "frameColor": "#F1E7DA", "showFrame": true, "bezelRatio": 0.03, "screenCornerRatio": 0.1 } },
+
+        { "id": "p5_btn_bg", "x": 190, "y": 1730, "width": 700, "height": 130, "rotation": 0, "alpha": 1,
+          "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#FAF6EF", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+        { "id": "p5_btn_text", "x": 190, "y": 1730, "width": 700, "height": 130, "rotation": 0, "alpha": 1,
+          "content": { "type": "text", "text": "دانلود از کافه‌بازار و مایکت", "fontSizePx": 44, "color": "#7A3F18", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } }
+      ]
+    }
+  ]
+}
