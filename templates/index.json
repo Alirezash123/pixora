@@ -41,6 +41,12 @@
       "title": "بنر افقی تلگرام (برگه امتحان)",
       "category": "تبلیغات",
       "templateUrl": "templates/exam_banner_01.json"
+    },
+    {
+      "id": "universal_installer_banner_01",
+      "title": "بنر Universal Installer",
+      "category": "تبلیغات",
+      "templateUrl": "templates/universal_installer_banner_01.json"
     }
   ]
 }
