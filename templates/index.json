@@ -35,6 +35,12 @@
       "title": "معرفی اپ برگه امتحان (۵ صفحه)",
       "category": "معرفی اپلیکیشن",
       "templateUrl": "templates/exam_app_01.json"
+    },
+    {
+      "id": "exam_banner_01",
+      "title": "بنر افقی تلگرام (برگه امتحان)",
+      "category": "تبلیغات",
+      "templateUrl": "templates/exam_banner_01.json"
     }
   ]
 }
