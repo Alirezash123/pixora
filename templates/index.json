@@ -47,6 +47,12 @@
       "title": "بنر Universal Installer",
       "category": "تبلیغات",
       "templateUrl": "templates/universal_installer_banner_01.json"
+    },
+    {
+      "id": "panel_bot_banner_02",
+      "title": "بنر ربات پنل ارتباط",
+      "category": "تبلیغات",
+      "templateUrl": "templates/panel_bot_banner_02.json"
     }
   ]
 }
