@@ -1,0 +1,88 @@
+{
+  "name": "بنر ربات پنل ارتباط",
+  "width": 1920,
+  "height": 1080,
+  "background": { "type": "gradient", "colors": ["#0F172A", "#1E3A8A"], "angle": 20 },
+  "elements": [
+    { "id": "bg_glow", "x": 20, "y": 120, "width": 900, "height": 900, "rotation": 0, "alpha": 0.3, "locked": true,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#6366F1", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "bg_circle_top", "x": 1500, "y": -380, "width": 820, "height": 820, "rotation": 0, "alpha": 0.12, "locked": true,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#60A5FA", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "bg_ring", "x": -200, "y": -220, "width": 560, "height": 560, "rotation": 0, "alpha": 0.3, "locked": true,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#F59E0B", "strokeWidthPx": 4 } },
+
+    { "id": "card_back", "x": 250, "y": 250, "width": 620, "height": 620, "rotation": 8, "alpha": 0.7,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#2563EB", "cornerRadiusPx": 70, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+    { "id": "card_bg", "x": 170, "y": 210, "width": 620, "height": 620, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#1E293B", "cornerRadiusPx": 60, "strokeColor": "#475569", "strokeWidthPx": 4 } },
+
+    { "id": "app_icon", "x": 630, "y": 260, "width": 120, "height": 120, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#F59E0B", "cornerRadiusPx": 34, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "app_name", "x": 220, "y": 268, "width": 390, "height": 60, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "نام اپلیکیشن شما", "fontSizePx": 40, "color": "#FFFFFF", "bold": true, "align": "START", "fontKey": "vazirmatn" } },
+    { "id": "app_meta", "x": 220, "y": 332, "width": 390, "height": 46, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "نسخه ۱.۰ • ابزار", "fontSizePx": 28, "color": "#94A3B8", "bold": false, "align": "START", "fontKey": "vazirmatn" } },
+
+    { "id": "card_divider", "x": 210, "y": 420, "width": 540, "height": 3, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "RECTANGLE", "fillColor": "#334155", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+    { "id": "line1", "x": 210, "y": 462, "width": 540, "height": 22, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#334155", "cornerRadiusPx": 11, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "line2", "x": 330, "y": 508, "width": 420, "height": 22, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#334155", "cornerRadiusPx": 11, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "line3", "x": 270, "y": 554, "width": 480, "height": 22, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#334155", "cornerRadiusPx": 11, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+    { "id": "send_bg", "x": 480, "y": 650, "width": 270, "height": 84, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#38BDF8", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "send_text", "x": 480, "y": 650, "width": 270, "height": 84, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "ارسال درخواست", "fontSizePx": 30, "color": "#0F172A", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+    { "id": "ok_bg", "x": 210, "y": 650, "width": 240, "height": 84, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#22C55E", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "ok_text", "x": 210, "y": 650, "width": 240, "height": 84, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "تأیید شد", "fontSizePx": 30, "color": "#052E16", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "float1_bg", "x": 80, "y": 760, "width": 300, "height": 84, "rotation": -5, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#F59E0B", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "float1_text", "x": 80, "y": 760, "width": 300, "height": 84, "rotation": -5, "alpha": 1,
+      "content": { "type": "text", "text": "اپلیکیشن", "fontSizePx": 36, "color": "#0F172A", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+    { "id": "float2_bg", "x": 640, "y": 150, "width": 220, "height": 84, "rotation": 6, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#38BDF8", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "float2_text", "x": 640, "y": 150, "width": 220, "height": 84, "rotation": 6, "alpha": 1,
+      "content": { "type": "text", "text": "بازی", "fontSizePx": 36, "color": "#0F172A", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "tag_bg", "x": 1390, "y": 80, "width": 430, "height": 84, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#F59E0B", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "tag_text", "x": 1390, "y": 80, "width": 430, "height": 84, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "ثبت کاملاً رایگان", "fontSizePx": 34, "color": "#0F172A", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "title", "x": 960, "y": 190, "width": 860, "height": 320, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "اپ و بازی‌ات را\nرایگان ثبت کن", "fontSizePx": 112, "color": "#FFFFFF", "bold": true, "align": "START", "fontKey": "vazirmatn" } },
+    { "id": "accent_bar", "x": 1720, "y": 530, "width": 100, "height": 12, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#F59E0B", "cornerRadiusPx": 6, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "subtitle", "x": 960, "y": 565, "width": 860, "height": 130, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "درخواستت را در ربات «پنل ارتباط» بفرست\nتا بعد از تأیید، در کانال معرفی شود", "fontSizePx": 40, "color": "#CBD5E1", "bold": false, "align": "START", "fontKey": "vazirmatn" } },
+
+    { "id": "step1_bg", "x": 1550, "y": 730, "width": 270, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#1E293B", "cornerRadiusPx": 999, "strokeColor": "#475569", "strokeWidthPx": 3 } },
+    { "id": "step1_text", "x": 1550, "y": 730, "width": 270, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "۱. ارسال اطلاعات", "fontSizePx": 28, "color": "#E2E8F0", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+    { "id": "step2_bg", "x": 1255, "y": 730, "width": 270, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#1E293B", "cornerRadiusPx": 999, "strokeColor": "#475569", "strokeWidthPx": 3 } },
+    { "id": "step2_text", "x": 1255, "y": 730, "width": 270, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "۲. بررسی ادمین", "fontSizePx": 28, "color": "#E2E8F0", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+    { "id": "step3_bg", "x": 960, "y": 730, "width": 270, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#1E293B", "cornerRadiusPx": 999, "strokeColor": "#475569", "strokeWidthPx": 3 } },
+    { "id": "step3_text", "x": 960, "y": 730, "width": 270, "height": 80, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "۳. انتشار در کانال", "fontSizePx": 28, "color": "#E2E8F0", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "button_bg", "x": 1220, "y": 850, "width": 600, "height": 110, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#38BDF8", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "button_text", "x": 1220, "y": 850, "width": 600, "height": 110, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "شروع در ربات روبیکا", "fontSizePx": 42, "color": "#0F172A", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "bot_id", "x": 960, "y": 985, "width": 860, "height": 56, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "آیدی ربات: @your_bot_id", "fontSizePx": 32, "color": "#94A3B8", "bold": false, "align": "START", "fontKey": "vazirmatn" } }
+  ]
+}
