@@ -1,0 +1,62 @@
+{
+  "name": "بنر Seoking",
+  "width": 1920,
+  "height": 1080,
+  "background": { "type": "gradient", "colors": ["#052E2B", "#0F4C45"], "angle": 20 },
+  "elements": [
+    { "id": "bg_glow", "x": 40, "y": 140, "width": 880, "height": 880, "rotation": 0, "alpha": 0.28, "locked": true,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#10B981", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "bg_circle_top", "x": 1500, "y": -380, "width": 820, "height": 820, "rotation": 0, "alpha": 0.12, "locked": true,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#FBBF24", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "bg_ring", "x": -200, "y": -220, "width": 560, "height": 560, "rotation": 0, "alpha": 0.3, "locked": true,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#FBBF24", "strokeWidthPx": 4 } },
+
+    { "id": "logo_card", "x": 235, "y": 255, "width": 500, "height": 500, "rotation": 8, "alpha": 0.9,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#134E4A", "cornerRadiusPx": 120, "strokeColor": "#1F6F66", "strokeWidthPx": 4 } },
+    { "id": "logo", "x": 245, "y": 265, "width": 480, "height": 480, "rotation": 0, "alpha": 1,
+      "content": { "type": "image", "imageUrl": "https://uploadkon.ir/uploads/7efa29_26file-00000000fe2c81f4a31d611a6668a01c.png", "cornerRadiusPx": 110 } },
+
+    { "id": "float1_bg", "x": 80, "y": 760, "width": 260, "height": 84, "rotation": -5, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#FBBF24", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "float1_text", "x": 80, "y": 760, "width": 260, "height": 84, "rotation": -5, "alpha": 1,
+      "content": { "type": "text", "text": "لایک پست", "fontSizePx": 34, "color": "#052E2B", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+    { "id": "float2_bg", "x": 610, "y": 180, "width": 310, "height": 84, "rotation": 6, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#34D399", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "float2_text", "x": 610, "y": 180, "width": 310, "height": 84, "rotation": 6, "alpha": 1,
+      "content": { "type": "text", "text": "عضویت در کانال", "fontSizePx": 32, "color": "#052E2B", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+    { "id": "float3_bg", "x": 620, "y": 800, "width": 290, "height": 84, "rotation": -4, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#FFFFFF", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "float3_text", "x": 620, "y": 800, "width": 290, "height": 84, "rotation": -4, "alpha": 1,
+      "content": { "type": "text", "text": "دنبال کردن صفحه", "fontSizePx": 32, "color": "#052E2B", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "tag_bg", "x": 1290, "y": 80, "width": 530, "height": 84, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#FBBF24", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "tag_text", "x": 1290, "y": 80, "width": 530, "height": 84, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "اپلیکیشن انجام تسک", "fontSizePx": 34, "color": "#052E2B", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "title", "x": 960, "y": 190, "width": 860, "height": 320, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "با تسک‌های ساده\nکیف پولت را پر کن", "fontSizePx": 104, "color": "#FFFFFF", "bold": true, "align": "START", "fontKey": "vazirmatn" } },
+    { "id": "accent_bar", "x": 1720, "y": 530, "width": 100, "height": 12, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#FBBF24", "cornerRadiusPx": 6, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "subtitle", "x": 960, "y": 565, "width": 860, "height": 130, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "لایک، عضویت در کانال و دنبال کردن صفحه\nو دریافت پاداش در کیف پول اپلیکیشن", "fontSizePx": 40, "color": "#BFE5DE", "bold": false, "align": "START", "fontKey": "vazirmatn" } },
+
+    { "id": "feat1_bg", "x": 1540, "y": 740, "width": 280, "height": 72, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#0B3F39", "cornerRadiusPx": 999, "strokeColor": "#1F6F66", "strokeWidthPx": 3 } },
+    { "id": "feat1_text", "x": 1540, "y": 740, "width": 280, "height": 72, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "تسویه با شبا", "fontSizePx": 28, "color": "#E6FFFA", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+    { "id": "feat2_bg", "x": 1240, "y": 740, "width": 280, "height": 72, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#0B3F39", "cornerRadiusPx": 999, "strokeColor": "#1F6F66", "strokeWidthPx": 3 } },
+    { "id": "feat2_text", "x": 1240, "y": 740, "width": 280, "height": 72, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "دعوت از دوستان", "fontSizePx": 28, "color": "#E6FFFA", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+    { "id": "feat3_bg", "x": 940, "y": 740, "width": 280, "height": 72, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#0B3F39", "cornerRadiusPx": 999, "strokeColor": "#1F6F66", "strokeWidthPx": 3 } },
+    { "id": "feat3_text", "x": 940, "y": 740, "width": 280, "height": 72, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "پشتیبانی با تیکت", "fontSizePx": 26, "color": "#E6FFFA", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "button_bg", "x": 1220, "y": 880, "width": 600, "height": 110, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#FBBF24", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "button_text", "x": 1220, "y": 880, "width": 600, "height": 110, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "دانلود از کافه‌بازار", "fontSizePx": 42, "color": "#052E2B", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } }
+  ]
+}
