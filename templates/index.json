@@ -53,6 +53,12 @@
       "title": "بنر ربات پنل ارتباط",
       "category": "تبلیغات",
       "templateUrl": "templates/panel_bot_banner_02.json"
+    },
+    {
+      "id": "seoking_banner_01",
+      "title": "بنر Seoking",
+      "category": "تبلیغات",
+      "templateUrl": "templates/seoking_banner_01.json"
     }
   ]
 }
