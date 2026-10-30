@@ -1,0 +1,82 @@
+{
+  "name": "بنر Pocket Farm",
+  "width": 1920,
+  "height": 1080,
+  "background": { "type": "gradient", "colors": ["#05080A", "#0C2A22"], "angle": 75 },
+  "elements": [
+    { "id": "bg_ring_big", "x": 360, "y": 40, "width": 1200, "height": 1200, "rotation": 0, "alpha": 0.16, "locked": true,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#F5B301", "strokeWidthPx": 4 } },
+    { "id": "bg_ring_mid", "x": 510, "y": 190, "width": 900, "height": 900, "rotation": 0, "alpha": 0.22, "locked": true,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#F5B301", "strokeWidthPx": 4 } },
+    { "id": "bg_gold_glow", "x": 610, "y": 290, "width": 700, "height": 700, "rotation": 0, "alpha": 0.1, "locked": true,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#F5B301", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "bg_emerald_left", "x": -300, "y": 520, "width": 760, "height": 760, "rotation": 0, "alpha": 0.16, "locked": true,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#10B981", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "bg_gold_right", "x": 1500, "y": -260, "width": 700, "height": 700, "rotation": 0, "alpha": 0.08, "locked": true,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#F5B301", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+
+    { "id": "coinA_outer", "x": 330, "y": 380, "width": 190, "height": 190, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#F5B301", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "coinA_inner", "x": 344, "y": 394, "width": 162, "height": 162, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#B7791F", "strokeWidthPx": 6 } },
+    { "id": "coinA_text", "x": 330, "y": 380, "width": 190, "height": 190, "rotation": -12, "alpha": 1,
+      "content": { "type": "text", "text": "$", "fontSizePx": 110, "color": "#7A4B00", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "coinB_outer", "x": 250, "y": 740, "width": 130, "height": 130, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#F5B301", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "coinB_inner", "x": 260, "y": 750, "width": 110, "height": 110, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#B7791F", "strokeWidthPx": 5 } },
+    { "id": "coinB_text", "x": 250, "y": 740, "width": 130, "height": 130, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "$", "fontSizePx": 76, "color": "#7A4B00", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "coinC_outer", "x": 1400, "y": 350, "width": 150, "height": 150, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#F5B301", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "coinC_inner", "x": 1411, "y": 361, "width": 128, "height": 128, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#B7791F", "strokeWidthPx": 5 } },
+    { "id": "coinC_text", "x": 1400, "y": 350, "width": 150, "height": 150, "rotation": 10, "alpha": 1,
+      "content": { "type": "text", "text": "T", "fontSizePx": 86, "color": "#7A4B00", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "coinD_outer", "x": 1480, "y": 720, "width": 210, "height": 210, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": "#F5B301", "cornerRadiusPx": 0, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "coinD_inner", "x": 1495, "y": 735, "width": 180, "height": 180, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "CIRCLE", "fillColor": 0, "cornerRadiusPx": 0, "strokeColor": "#B7791F", "strokeWidthPx": 6 } },
+    { "id": "coinD_text", "x": 1480, "y": 720, "width": 210, "height": 210, "rotation": -8, "alpha": 1,
+      "content": { "type": "text", "text": "$", "fontSizePx": 120, "color": "#7A4B00", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "tag_bg", "x": 710, "y": 40, "width": 500, "height": 76, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#F5B301", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "tag_text", "x": 710, "y": 40, "width": 500, "height": 76, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "بازی مزرعه‌داری با پاداش توکن", "fontSizePx": 30, "color": "#1A1205", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "age_bg", "x": 80, "y": 44, "width": 130, "height": 68, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#1A0F0F", "cornerRadiusPx": 999, "strokeColor": "#F87171", "strokeWidthPx": 3 } },
+    { "id": "age_text", "x": 80, "y": 44, "width": 130, "height": 68, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "18+", "fontSizePx": 34, "color": "#F87171", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "title", "x": 260, "y": 135, "width": 1400, "height": 150, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "مزرعه بساز، توکن جمع کن", "fontSizePx": 92, "color": "#FFFFFF", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+    { "id": "subtitle", "x": 360, "y": 290, "width": 1200, "height": 70, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "بکار، برداشت کن، بساز و توکن بگیر", "fontSizePx": 36, "color": "#9FB8AE", "bold": false, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "phone", "x": 742, "y": 390, "width": 436, "height": 900, "rotation": 0, "alpha": 1,
+      "content": { "type": "phoneFrame", "model": "PUNCH_HOLE", "screenshotUrl": "images/pocket_farm.png", "frameColor": "#D4A017", "showFrame": true, "bezelRatio": 0.03, "screenCornerRatio": 0.1 } },
+
+    { "id": "chip1_bg", "x": 120, "y": 600, "width": 340, "height": 84, "rotation": -4, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#10281F", "cornerRadiusPx": 999, "strokeColor": "#10B981", "strokeWidthPx": 3 } },
+    { "id": "chip1_text", "x": 120, "y": 600, "width": 340, "height": 84, "rotation": -4, "alpha": 1,
+      "content": { "type": "text", "text": "کاشت و برداشت", "fontSizePx": 32, "color": "#A7F3D0", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+    { "id": "chip2_bg", "x": 1460, "y": 560, "width": 340, "height": 84, "rotation": 4, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#10281F", "cornerRadiusPx": 999, "strokeColor": "#10B981", "strokeWidthPx": 3 } },
+    { "id": "chip2_text", "x": 1460, "y": 560, "width": 340, "height": 84, "rotation": 4, "alpha": 1,
+      "content": { "type": "text", "text": "دریافت توکن", "fontSizePx": 32, "color": "#A7F3D0", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+    { "id": "chip3_bg", "x": 110, "y": 900, "width": 380, "height": 84, "rotation": 3, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#10281F", "cornerRadiusPx": 999, "strokeColor": "#10B981", "strokeWidthPx": 3 } },
+    { "id": "chip3_text", "x": 110, "y": 900, "width": 380, "height": 84, "rotation": 3, "alpha": 1,
+      "content": { "type": "text", "text": "ارتقای مزرعه", "fontSizePx": 32, "color": "#A7F3D0", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } },
+
+    { "id": "button_bg", "x": 660, "y": 930, "width": 600, "height": 100, "rotation": 0, "alpha": 1,
+      "content": { "type": "shape", "shapeType": "ROUNDED_RECTANGLE", "fillColor": "#F5B301", "cornerRadiusPx": 999, "strokeColor": 0, "strokeWidthPx": 0 } },
+    { "id": "button_text", "x": 660, "y": 930, "width": 600, "height": 100, "rotation": 0, "alpha": 1,
+      "content": { "type": "text", "text": "دانلود از گوگل‌پلی", "fontSizePx": 40, "color": "#1A1205", "bold": true, "align": "CENTER", "fontKey": "vazirmatn" } }
+  ]
+}
