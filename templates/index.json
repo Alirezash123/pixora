@@ -59,6 +59,12 @@
       "title": "بنر Seoking",
       "category": "تبلیغات",
       "templateUrl": "templates/seoking_banner_01.json"
+    },
+    {
+      "id": "pocket_farm_banner_01",
+      "title": "بنر Pocket Farm",
+      "category": "تبلیغات",
+      "templateUrl": "templates/pocket_farm_banner_01.json"
     }
   ]
 }
