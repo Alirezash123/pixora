@@ -65,6 +65,12 @@
       "title": "بنر Pocket Farm",
       "category": "تبلیغات",
       "templateUrl": "templates/pocket_farm_banner_01.json"
+    },
+    {
+      "id": "magician_bot_poster_01",
+      "title": "پوستر ربات Magician Hallowan",
+      "category": "تبلیغات",
+      "templateUrl": "templates/magician_bot_poster_01.json"
     }
   ]
 }
