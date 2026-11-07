@@ -77,6 +77,12 @@
       "title": "بنر Bird Village",
       "category": "تبلیغات",
       "templateUrl": "templates/bird_village_banner_01.json"
+    },
+    {
+      "id": "tablora_banner_01",
+      "title": "بنر Tablora (چهار گوشی)",
+      "category": "معرفی اپلیکیشن",
+      "templateUrl": "templates/tablora_banner_01.json"
     }
   ]
 }
