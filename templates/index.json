@@ -83,6 +83,12 @@
       "title": "بنر Tablora (چهار گوشی)",
       "category": "معرفی اپلیکیشن",
       "templateUrl": "templates/tablora_banner_01.json"
+    },
+    {
+      "id": "video_mapping_hero_01",
+      "title": "هیرو سایت ویدئو مپینگ (برج آزادی)",
+      "category": "تبلیغات",
+      "templateUrl": "templates/video_mapping_hero_01.json"
     }
   ]
 }
